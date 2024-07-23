@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-Regular.ttf) 
+}
+
+
+* {
+    font-family: 'Raleway';
+    font-weight: 1000;
+    color: orangered;
+    
+
+}
+
+body {
+    background-image: url(../img/greencamo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+.container {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.container ul {
+    list-style: none;
+
+}
+
+.container a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  a { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
+
+.recipe-content {
+    text-align: center;
+}
+
+.display-inline {
+    display: inline-block
+}
+
+.recipe-card {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+ul,
+ol {
+    text-align: left;
+}
