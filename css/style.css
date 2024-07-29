@@ -8,7 +8,7 @@
     font-family: 'Raleway';
     font-weight: 1000;
     color: orangered;
-    
+        
 
 }
 
@@ -55,14 +55,26 @@ img {
 
 .recipe-content {
     text-align: center;
+    box-sizing: content-box;
+    background-color: rgb(68, 97, 10);
+    display: block;
+    margin: 10px auto;
+    padding: 50px;
+    width:  528px;
+    border: dotted orangered;
 }
 
-.display-inline {
-    display: inline-block
-}
 
 .recipe-card {
     text-align: center;
+    box-sizing: content-box;
+    background-color: rgb(68, 97, 10);
+    display: block;
+    margin: 10px auto;
+    padding: 50px;
+    width: 528px; 
+    border: dotted orangered;
+
 }
 
 a {
@@ -74,8 +86,16 @@ ol {
     text-align: left;
 }
 
-
 ::-moz-selection  {
   color: rgb(164, 64, 173);
   background: rgb(34, 88, 38);
 }
+
+button {
+    width: 200px;
+    margin: auto;
+    display: block;
+    background-color: rgb(68, 97, 10);
+}
+
+
